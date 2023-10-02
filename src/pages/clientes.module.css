@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
+/* Clientes */
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+section.clientes{
+    padding: 40px 4%;
+    font-family: "Poppins", sans-serif;
+}
+section.clientes h1{
+    color:  #0088a9;
+}
+.clientes .c1{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    gap: 60px;
+}
+.clientes .barra{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    padding: 40px 0px 40px 40px ;
+    border: 2px solid #0088a9;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+}
+.clientes .barra p{
+    margin-top: 10px;
+}
+.clientes .c1 .emp{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.clientes .c1 .emp:hover{
+  
+    background-color: #292a2e;
+    transform: scale(1.5);
+    box-shadow: 0 0 8px;
+}
+.empresa{
+    color: #0088a9;
+}

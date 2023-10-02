@@ -1,0 +1,69 @@
+.flex{
+    display: flex;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section.sobre{
+    padding: 40px 4%;
+    font-family: "Poppins", sans-serif;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt_sobre{
+    color:#fff;
+}
+.sobre .txt_sobre h2{
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.sobre .txt_sobre h2 span{
+    color: #0088a9;
+    display: block;
+}
+.sobre .txt_sobre p{
+    margin:20px 0;
+    text-align: justify;
+}
+.sobre img{
+
+    border-radius: 50px;
+
+}
+/* especialidade */
+section.especialidades{
+    padding: 40px 4%;
+    display: block;
+}
+section.especialidades .flex{
+    gap: 60px;
+}
+.especialidades h2{
+    color: #FFF;
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 50px;
+
+}
+.especialidades .barra{
+  
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    padding: 40px;
+    border: 2px solid #0088a9;
+    border-radius: 20px;
+}
+.especialidades .flex .barra:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px;
+}
+.especialidades .barra h1{
+    color: #0088a9;
+    font-size: 28px;
+    margin-top: 15px 0;
+    margin-bottom: 20px;
+}

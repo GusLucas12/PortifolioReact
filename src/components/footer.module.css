@@ -1,0 +1,16 @@
+footer{
+    padding: 40px 4%;
+    border-top: 5px solid #538d9b;;
+    background-color: #0088a9;
+}
+footer > .interface{
+    color: #24252A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+footer .block{
+    display: block;
+}

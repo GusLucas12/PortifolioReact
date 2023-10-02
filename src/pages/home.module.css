@@ -1,0 +1,55 @@
+.main{
+    margin-top: 50px;
+    display:flexbox;
+     justify-content:center;
+    column-count: 2;
+}
+.title{
+    font-size: 32px;
+    color: black;
+    
+}
+/* topo  do site*/
+
+.topo{
+    padding: 200px 4%;
+}
+
+.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo h1{
+ color: #FFFFFF;
+ font-size: 42px;
+ line-height: 40px;
+ font-family: "Poppins", sans-serif;
+}
+.txt_topo_site h1 span{
+  color:   #0088a9;
+}
+.topo .txt_topo_site p{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 40px 0;
+    font-family: "Poppins", sans-serif;
+}
+.topo .img_topo_site{
+    transform: scale(1.5);
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0%{
+        top:0;
+    }
+    100%{
+        top:30px;
+    }
+}
+.flex{
+    display: flex;
+}

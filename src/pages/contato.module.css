@@ -1,0 +1,43 @@
+/* Contato */
+.contato .flex .txt_contato{
+    color: #0088a9;
+    padding: 40px 4%;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+}
+.ende {
+    background-color: #0088a9;
+    margin-top: 60px;
+}
+.ende .flex{
+    
+    padding: 40px 4% 400px 4%;
+    gap: 250px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+}
+.ende .flex .baixo h1{
+ 
+    color: #24252A;
+}
+.ende .flex .baixo p{
+    margin-bottom: 40px;
+}
+.flex{
+    display: flex;
+}
+.main{
+    margin-top: 50px;
+    display:flexbox;
+     justify-content:center;
+    column-count: 2;
+}
+.title{
+    font-size: 32px;
+    color: black;
+    
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
